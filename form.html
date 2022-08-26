@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام</title>
+</head>
+<body dir="rtl">
+   
+    <h1>ثبت نام</h1>
+    <fieldset>
+        <legend>  اطلاعات شخصی</legend>
+        <form action="#">
+            <label>
+                نام :
+                <input type="text">
+            </label>
+            <label>
+                نام خانوادگی :
+                <input type="text">
+            </label>
+            <label>
+                شغل:
+                <select>
+                    <option value="">یک گزینه را انتخاب کنید</option>
+                    <option value="">برنامه نویس</option>
+                    <option value="">ازاد</option>
+                    <option value="">دانشجو</option>
+                    <option value="">حسابدار</option>
+                    <option value="">بیکار</option>
+                </select>
+            </label>
+            <label>
+             تاریخ تولد :
+                <input type="datetime-local">
+            </label>
+            <label><br>
+                جنسیت:
+                <label>
+                    مرد
+                    <input type="radio" name="a">
+                </label>
+                <label>
+                    زن
+                    <input type="radio" name="a">
+                </label>
+            </label>
+        </form>
+    </fieldset><br><br>
+    <fieldset>
+        <legend>اطلاعات تماس</legend>
+        <form action="#">
+        <label>
+            ایمیل:
+            <input type="email">
+        </label>
+        <label>
+            شماره تماس:
+            <input type="tel">
+        </label>
+        <label>
+            شماره تلفن ثابت:
+            <input type="tel">
+        </label><br>
+        <label><br>
+            ادرس محل سکونت: 
+            <br>
+            <textarea name="" id="" cols="50" rows="10" ></textarea>
+        </label> 
+        </form>
+    </fieldset><br><br>
+    <fieldset>
+        <legend>مدارک</legend>
+        <form>
+            <label>
+                کارت ملی:
+                <input type="file">
+            </label><br><br>
+            <label>
+                شناسنامه:
+                <input type="file">
+            </label>
+        </form>
+    </fieldset><br><br>
+    <button type="submit">ثبت اطلاعات</button>
+</body>
+</html>
